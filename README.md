@@ -69,7 +69,9 @@ In order to evaluate the consistency of our sample across time we plotted both t
 
 Our first figure (Top) describes the distribution of the number of episodes across time, grouped by Year. As we can observe it takes the form of a bimodal distribution with the first peak ranging between the years [1950-1970] and the second one between the years [1990-2020]. This type of distribution would entail some problems as it is not evenly distributed across time and thus time could become a factor that influences our results. However, as shown by our second figure (Bottom) which describes averaged rating distribution across time grouped by Year, it does not seem to affect Rating in any drastic maner as it stays well within the [6-8] point range. Further analysis should be taken into consideration in order to rule out possible effects of time.
 
-![](Images\Time_Plot.png)
+
+<img src="Images\Time_Plot.png" alt="drawing"/>
+
 
 **Sample Distribution Across Seasons**
 
@@ -77,19 +79,19 @@ To evaluate our sample distribution across Seasons we plotted Episode Count and 
 
 Our first figure  describes the number of episodes within our sample across seasons. At first glance it seems clear that our distribution is right-skewed, with values remaining fairly consistent within the initial nine seasons and then decreasing in an logarithmic fashion.
 
-![](Images\Episode_CountxSeason_Plot.png)
+<img src="Images\Episode_CountxSeason_Plot.png" alt="drawing"/>
 
  This trend is also present when comparing the number of series within each season as seen in the next figure. We can then infer that the decline in episode count is probably caused by the decline in the number of series with each succesive season after number 9. 
  
- ![](Images\Season_CountxSeason_Plot.png)
+ <img src="Images\Season_CountxSeason_Plot.png" alt="drawing"/>
  
  To back up this inference we performed a Pearson correlation between Episode Count and Series Count across Seasons obtaining a nearly perfect correlation (r = 0.99) and then plotted said correlation onto a scatterplot, as seen below, once values where normalized.
 
-![](Images\Scatterplot.png)
+<img src="Images\Scatterplot.png" alt="drawing"/>
 
 Lastly, we grouped Episode Count by the Series Stages we previously defined (Early[1-3], Mid[4-6], Late[7-9] and Extra[10, 34]) as shown bellow. 
 
-![](Images\Episode_CountxStage_Plot.png)
+<img src="Images\Episode_CountxStage_Plot.png" alt="drawing"/>
 
 As expected, these groupings distribute our sample into similar amounts which will enable us to analyze Averaged Rating distribution between them and determine if there are significant differences between Series Stages. However, as our Extra Series stage is comprised of only a couple of series, it will inevitably only reflect their Averaged Rating distribution and not the sample as a whole. Therefore, any conclusions drawn from it should remain anecdotal at best.
 
@@ -97,20 +99,19 @@ As expected, these groupings distribute our sample into similar amounts which wi
 
 Once we ascertained the validity of our sample we proceeded onto the actual statistical analysis. We first plotted Rating across seasons in order to get a sense of its progression. 
 
-![](Images\RatingxSeason_Plot.png)
+<img src="Images\RatingxSeason_Plot.png" alt="drawing"/>
 
 As shown in the figure above, at first glance there does not seem to be any significant change of Episode Rating across Seasons [1-9], with the only real noticeable change starting around Season 20. 
 
 We then grouped Episode Rating by the pre-established Season Stages as shown bellow. 
 
-![](Images\RatingxStage_Plot.png)
+<img src="Images\RatingxStage_Plot.png" alt="drawing"/>
 
 By doing so we uncover a large amount of outliers which will have to be dealt with before we can employ an Independent Sample Student's T-Test to reveal any statistically significant change in Episode Rating across Season Stages. 
 
 Outliers were removed sample-wise. The criteria used was any data point that deviated 1.5 times the interquartile range.
 
-![](Images\RatingxStage_OutlierRemoved_Plot.png)
-
+<img src="Images\RatingxStage_OutlierRemoved_Plot.png" alt="drawing"/>
 
 **Testing for Statistical Significance**
 
@@ -133,7 +134,7 @@ Based on these results it seems that there is no significant decline between our
 In order to express our final results we once again plotted Episode Rating by Season Stage, this time dropping our Extra Stage due to its anecdotal nature.
 The corresponding box plot can be seen below:
 
-![](Images\RatingxStage_Significance.png)
+<img src="Images\RatingxStage_Significance.png" alt="drawing"/>
 
 **Conclusion**
 
