@@ -30,7 +30,7 @@ our Independent Variable (IV) and Rating our Dependent Variable (DV).
 **Data Collection**
 
 In order to create our data set we used IMDB user yohmarit-143-626778's list of
-longest running TV Shows created on the 19th of Febuary 2019. With this list in mind,
+longest running TV Shows created on the 19th of February 2019. With this list in mind,
 we developed a Selenium-based WebScraper in order to gather relevant information
 of each of these series. The variables collected were:
 
