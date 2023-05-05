@@ -77,11 +77,11 @@ Our first figure (Top) describes the distribution of the number of episodes acro
 
 To evaluate our sample distribution across Seasons we plotted Episode Count and Series Count across Seasons. 
 
-Our first figure  describes the number of episodes within our sample across seasons. At first glance it seems clear that our distribution is right-skewed, with values remaining fairly consistent within the initial nine seasons and then decreasing in an logarithmic fashion.
+Our first figure  describes the number of episodes within our sample across seasons. At first glance it seems clear that our distribution is right-skewed, with values remaining fairly consistent within the initial nine seasons and then decreasing in a logarithmic fashion.
 
 <img src="Images\Episode_CountxSeason_Plot.png" alt="drawing"/>
 
- This trend is also present when comparing the number of series within each season as seen in the next figure. We can then infer that the decline in episode count is probably caused by the decline in the number of series with each succesive season after number 9. 
+ This trend is also present when comparing the number of series within each season as seen in the next figure. We can then infer that the decline in episode count is probably caused by the decline in the number of series with each successive season after number 9. 
  
  <img src="Images\Season_CountxSeason_Plot.png" alt="drawing"/>
  
@@ -89,7 +89,7 @@ Our first figure  describes the number of episodes within our sample across seas
 
 <img src="Images\Scatterplot.png" alt="drawing"/>
 
-Lastly, we grouped Episode Count by the Series Stages we previously defined (Early[1-3], Mid[4-6], Late[7-9] and Extra[10, 34]) as shown bellow. 
+Lastly, we grouped Episode Count by the Series Stages we previously defined (Early[1-3], Mid[4-6], Late[7-9] and Extra[10, 34]) as shown below. 
 
 <img src="Images\Episode_CountxStage_Plot.png" alt="drawing"/>
 
