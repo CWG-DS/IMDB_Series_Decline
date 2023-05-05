@@ -59,15 +59,15 @@ An extract of the data set can be seen below:
 
 **Data Filtering**
 
-Once we obtained our raw data we established a minimun threshhold of 80% non-null entries (Episodes) for each TV Series. This minimizes the impact of null values caused by errors derived from the WebScraper. Aditionally we filtered episodes which had less than 10 votes (Number Votes) each, due to the possible impact that a few voters could have on the overall Rating variance. This low entry point was established after a quick overview of the data which concluded that many of the series present within the data have not gardnered the interest of current IMDB users even if they were very influencial when they aired.
+Once we obtained our raw data, we established a minimum threshold of 80% non-null entries (Episodes) for each TV Series. This minimizes the impact of null values caused by errors derived from the WebScraper. Additionally, we filtered episodes which had less than 10 votes (Number Votes) each, due to the possible impact that a few voters could have on the overall Rating variance. This low entry point was established after a quick overview of the data which concluded that many of the series present within the data have not garnered the interest of current IMDB users even if they were very influential when they aired.
 
-Using this procedure we filtered out 13 TV Seires out of the 64 we started with. In conjunction with our additional filter, based on number of votes, we reduced the number of entries from 19.656 to 15.226.
+Using this procedure, we filtered out 13 TV Series out of the 64 we started with. In conjunction with our additional filter, based on number of votes, we reduced the number of entries from 19.656 to 15.226.
 
 **Descriptive Analysis**
 
 In order to evaluate the consistency of our sample across time we plotted both the Episode Count and Rating by Year.
 
-Our first figure (Top) describes the distribution of the number of episodes across time, grouped by Year. As we can observe it takes the form of a bimodal distribution with the first peak ranging between the years [1950-1970] and the second one between the years [1990-2020]. This type of distribution would entail some problems as it is not evenly distributed across time and thus time could become a factor that influences our results. However, as shown by our second figure (Bottom) which describes averaged rating distribution across time grouped by Year, it does not seem to affect Rating in any drastic maner as it stays well within the [6-8] point range. Further analysis should be taken into consideration in order to rule out possible effects of time.
+Our first figure (Top) describes the distribution of the number of episodes across time, grouped by Year. As we can observe it takes the form of a bimodal distribution with the first peak ranging between the years [1950-1970] and the second one between the years [1990-2020]. This type of distribution would entail some problems as it is not evenly distributed across time and thus time could become a factor that influences our results. However, as shown by our second figure (Bottom) which describes averaged rating distribution across time grouped by Year, it does not seem to affect Rating in any drastic manner as it stays well within the [6-8] point range. Further analysis should be taken into consideration in order to rule out possible effects of time.
 
 
 <img src="Images\Time_Plot.png" alt="drawing"/>
