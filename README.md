@@ -127,11 +127,11 @@ Due to our main goal being determining if a Series quality **declines** over tim
 | Late_Extra  |        5.39 |     0    |
 
 
-Based on these results it seems that there is no significant decline between our Early Stage[1-3] and Mid Stage[4-6]. However, there is a statisticaly significant decline in Episode Rating between Early and both Late and Extra stages, as well as between our Mid and both, Late and Extra stages. Finally, there is also a significant decline between our Late and Extra stages, however as noted above, this should only be treated as anecdotal due to a lack of validity within the final stage caused by uneven sampling.
+Based on these results it seems that there is no significant decline between our Early Stage[1-3] and Mid Stage[4-6]. However, there is a statistically significant decline in Episode Rating between Early and both Late and Extra stages, as well as between our Mid and both, Late and Extra stages. Finally, there is also a significant decline between our Late and Extra stages, however as noted above, this should only be treated as anecdotal due to a lack of validity within the final stage caused by uneven sampling.
 
 **Final Result Plot**
 
-In order to express our final results we once again plotted Episode Rating by Season Stage, this time dropping our Extra Stage due to its anecdotal nature.
+In order to express our final results, we once again plotted Episode Rating by Season Stage, this time dropping our Extra Stage due to its anecdotal nature.
 The corresponding box plot can be seen below:
 
 <img src="Images\RatingxStage_Significance.png" alt="drawing"/>
@@ -142,4 +142,4 @@ Given our sample of 51 series and 15.000 plus data entries, it seems that there 
 
 It must be stated that while many different factors come in to play when it comes to a series cancelation, its quality as measured by its rating is certainly one. 
 
-Going forward it would be interesting to increase our sample and include TV Series with different life spans and aim to determine the critical rating threshold that predicts its cancelation. One possible approach to this calculation is by using a sigmoid dosage mortality curve, an approach widely use in pharmacology. Here we would aim to determine the rating at which 50% of TV Series get canceled. 
+Going forward it would be interesting to increase our sample and include TV Series with different life spans and aim to determine the critical rating threshold that predicts its cancelation. One possible approach to this calculation is by using a sigmoid dosage mortality curve, an approach widely used in pharmacology. Here we would aim to determine the rating at which 50% of TV Series get canceled. 
