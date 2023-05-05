@@ -8,14 +8,14 @@
 
 Brief Description of the Project:
 
-It is commonly percieved that as a TV Series goes through its Seasons, its 
+It is commonly perceived that as a TV Series goes through its Seasons, its 
 quality tends to decline. The goal of this project is to test this hypothesis
-using statistical analysis. For this purpose we will go through the entire data
+using statistical analysis. For this purpose, we will go through the entire data
 analysis pipeline, from data collection to hypothesis testing via univariate means.
 
 In consequence, our null hypothesis (H0) states that there are no significant 
 changes in Rating throughout a TV Series life-span. On the other hand, our 
-alternative hypothesis (H1) states that there is infact a change in Rating and 
+alternative hypothesis (H1) states that there is in fact a change in Rating and 
 we expect this rating to decline. 
 In this project we decided to group Seasons by Stages as follows:
 - Early Season Stage: Seasons [1-3]
@@ -24,13 +24,13 @@ In this project we decided to group Seasons by Stages as follows:
 - Extra Season Stage: Seasons 10 and onward. 
 
 These discreet divisions will enable us to increase our sample size per group,
-rather than diluting it through-out each seperate season. These stages will be
-our Independent Variable (IV) and Rating our Dependent Variable(DV).
+rather than diluting it through-out each separate season. These stages will be
+our Independent Variable (IV) and Rating our Dependent Variable (DV).
 
 **Data Collection**
 
 In order to create our data set we used IMDB user yohmarit-143-626778's list of
-longest running TV Shows created on the 19th of Febuary 2019. With this list in mind
+longest running TV Shows created on the 19th of Febuary 2019. With this list in mind,
 we developed a Selenium-based WebScraper in order to gather relevant information
 of each of these series. The variables collected were:
 
